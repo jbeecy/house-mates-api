@@ -14,6 +14,8 @@ const postSchema = new mongoose.Schema({
     required: true
   },
   owner: {
+    // owner will hold an id from another document. the collection we will be
+    // referencing when locating the document is the User model.
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
     required: true
