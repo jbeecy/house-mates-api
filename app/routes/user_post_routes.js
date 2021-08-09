@@ -67,9 +67,9 @@ router.delete('/posts/:id', requireToken, (req, res, next) => {
     .then(post => {
       requireOwnership(req, post)
       post.deleteOne()
-        .then(() => res.sendStatus(204))
-        .catch(next)
     })
+    .then(() => res.sendStatus(204))
+    .catch(next)
 })
 
 // module exports the router
