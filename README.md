@@ -4,4 +4,4 @@
 
 Check out my [House Mates Project](https://jbeecy.github.io/house-mates/)
 
-Click [here] to check out the back end repository.(https://github.com/jbeecy/house-mates-api)
+Click [here](https://github.com/jbeecy/house-mates-api) to check out the back end repository.
