@@ -21,3 +21,4 @@ Update and delete post require ownership, meaning only the user that created the
 If you create a new post, click on the show all posts button to display your new post.
 
 ## Entity Relationship Diagram
+![Entity Relationship Diagram](https://media.git.generalassemb.ly/user/37148/files/233ee800-f9c9-11eb-9ce2-eb1fa1aa9355)
